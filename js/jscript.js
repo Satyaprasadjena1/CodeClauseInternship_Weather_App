@@ -9,8 +9,7 @@ console.log("kama")
     .then(data => {
         dispdata(data)
     })
-    //console.log(mydata)
-    // document.getElementById('weatherinfo').innerHTML = mydata
+
 }
 
 function dispdata(data)
