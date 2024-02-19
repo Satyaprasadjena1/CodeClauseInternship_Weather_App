@@ -1,6 +1,6 @@
 function getWeather()
 {
-console.log("kama")
+
     const city = document.getElementById('cityInput').value
     apikey = 'acbd6710de176aa90815106c4622eb01'
     const apiurl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`
